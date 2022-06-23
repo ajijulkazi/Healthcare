@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import{faCoffee,faChevronRight} from '@fortawesome/free-solid-svg-icons';
+import{faChevronRight} from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import img from '../../image/result.svg';
+import img from '../../image/home-img.svg';
 import './Home.css';
 const Home = () => {
     return (

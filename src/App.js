@@ -8,6 +8,7 @@ import Doctors from './components/Doctors/Doctors';
 import Book from './components/Book/Book';
 import Review from './components/Review/Reviews';
 import Blogs from './components/Blogs/Blogs';
+//import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path='/blog' element={<Blogs/>}/>
               
         </Routes>
+        {/* <Route path='/footer' element={<Footer/>}/> */}
       </Router>
       
     </div>

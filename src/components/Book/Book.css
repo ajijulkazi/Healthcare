@@ -1,0 +1,58 @@
+
+
+.book .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 2rem;
+}
+
+.book .row .image{
+    flex: 1 1 45rem;
+}
+
+.book .row .image img{
+    width: 100%;
+}
+
+.book .row .book-heading h3{
+    text-align: center;
+    color: var(--black);
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.book .row form{
+    flex: 1 1 45rem;
+    background: #fff;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.book .row form .box{
+    width: 90%;
+    margin: .5rem 0;
+    border-radius: .5rem;
+    border: var(--border);
+    font-size: 1rem;
+    color: var(--black);
+    text-transform: none;
+    padding: 1rem;
+}
+
+.book .row form .btn{
+    padding: 1rem 4rem;
+}
+
+@media(max-width:450px){
+    .book .row{
+        display: flex;
+        align-items: center;
+        flex-wrap:wrap;
+        gap: 1.5rem;
+        padding-top: 5rem;
+    }
+  }
