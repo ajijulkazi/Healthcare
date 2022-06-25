@@ -9,11 +9,14 @@ import Book from './components/Book/Book';
 import Review from './components/Review/Reviews';
 import Blogs from './components/Blogs/Blogs';
 import Footer from './components/Footer/Footer';
+import ScrollToTop from './components/Hooks/ScrollToTop';
+
 
 function App() {
   return (
     <div>
       <Router>
+      <ScrollToTop/>
         <Header></Header>
         <Routes>
             <Route exact path='/' element={<Home/>}/>
@@ -27,8 +30,10 @@ function App() {
               
         </Routes>
         {/* <Route path='/footer' element={<Footer/>}/> */}
-        <Footer></Footer>
+        <Footer/>
       </Router>
+      
+      
       
     </div>
   );

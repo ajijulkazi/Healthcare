@@ -4,6 +4,12 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import img from '../../image/home-img.svg';
 import './Home.css';
+import Services from '../Services/Services';
+import About from '../About/About';
+import Doctors from '../Doctors/Doctors';
+import Book from '../Book/Book';
+import Reviews from '../Review/Reviews';
+import Blogs from '../Blogs/Blogs';
 const Home = () => {
     return (
         <div>
@@ -53,6 +59,25 @@ const Home = () => {
             <p>Available Hospital</p>
             </div>
             </div>
+        </section>
+
+        <section>
+            <Services></Services>
+        </section>
+        <section>
+            <About></About>
+        </section>
+        <section>
+            <Doctors></Doctors>
+        </section>
+        <section>
+            <Book></Book>
+        </section>
+        <section>
+            <Reviews></Reviews>
+        </section>
+        <section>
+            <Blogs></Blogs>
         </section>
         
         

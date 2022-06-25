@@ -53,7 +53,7 @@ const Footer = () => {
                     
                 </div>
 
-                <div className="credit">created by <span>Ajijul Kazi</span> | all rights reserved</div>
+                <div className="credit">created by <span>Ajijul Kazi</span> | all rights reserved.</div>
             </section>
             
         </div>
