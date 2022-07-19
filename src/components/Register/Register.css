@@ -1,0 +1,59 @@
+.register-form{
+    border: var(--border);
+    /* border-radius: .5rem; */
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    border-color: aqua;
+    /* background-color: azure; */
+    background-image: url('../../image/register.jpg');
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.register-form .heading h2{
+    text-align: center;
+    color: var(--black);
+    padding-bottom: .4rem;
+    font-size: 2rem;
+}
+
+.register-form .form-all form .box{
+    width: 30%;
+    margin: .5rem 2rem;
+    border-radius: .5rem;
+    border: var(--border);
+    font-size: 1rem;
+    color: var(--black);
+    text-transform: none;
+    padding: 1rem;
+    text-align: center;
+    margin-left: 27rem;
+}
+
+.register-form .form-all form .btn{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 35rem;
+}
+
+
+.register-form .old-user{
+    font-size: 2rem;
+    margin-left: 18rem;
+    padding-top: 2rem;
+}
+
+.register-form .old-user p{
+    margin-left: 5rem;
+}
+
+.log-btn{
+    background-color: goldenrod;
+    width: 200px;
+    height: 35px;
+    border: 1px solid grey;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin-left: 14rem;
+    font-size: 1rem;
+}

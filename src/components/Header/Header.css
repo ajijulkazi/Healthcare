@@ -58,7 +58,40 @@
     color:var(--green);
 }
 
+.header .regi-btn a{
+    font-size: 1rem;
+    color:var(--light-color);
+    margin-left: 1rem;
+    cursor: pointer;
 
+}
+
+.header .regi-btn .login-btn{
+  border: var(--border);
+  border-color: rgb(12, 156, 43);
+  border-radius: .5rem;
+  font-size: 1.2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.header .regi-btn .login-btn:hover{
+    color: #fff;
+    background:var(--green);
+}
+
+.header .regi-btn .signup-btn{
+  border: var(--border);
+  border-color: red;
+  border-radius: .5rem;
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.header .regi-btn .signup-btn:hover{
+    color: #060912be;
+    background:rgb(255,0,0);
+}
 #menu-btn{
     font-size: 2.5rem;
     border-radius: .5rem;
@@ -86,6 +119,19 @@
       display: initial;
     }
     .header .navbar{
+      position: absolute;
+      top:115%; right: 2rem;
+      border-radius: .5rem;
+      box-shadow: var(--box-shadow);
+      width: 30rem;
+      border: var(--border);
+      background: #fff;
+      transform: scale(0);
+      opacity: 0;
+      transform-origin: top right;
+      transition: none;
+    }
+    .header .regi-btn{
       position: absolute;
       top:115%; right: 2rem;
       border-radius: .5rem;

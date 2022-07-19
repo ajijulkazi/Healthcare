@@ -56,20 +56,22 @@ section:nth-child(even){
     padding: .3rem .6rem;
     
     border-radius: .5rem;
-    background-color: var(--green);
+    background: var(--green);
     color: #fff;
     margin-left: .5rem;
 } */
+/* .btn:hover{
+    background: var(--green);
+    color: #fff;
+    margin-left: .5rem;
+} */
+
+
 .btn:hover{
-    background-color: var(--green);
     color: #fff;
-    margin-left: .5rem;
-}
-/* .btn-icon:hover{
-    color: var(--green);
-    background: #fff;
+    background:var(--green);
     margin-left: 1rem;
-} */
+}
 .icons-container{
     display: grid;
     gap:1rem;
@@ -86,7 +88,7 @@ section:nth-child(even){
         padding: 2.5rem;
   }
 
-  .icons-container .icons i{
+  .icons-container .icon{
     font-size: 4.5rem;
     color: var(--green);
     padding-bottom: .7rem;
