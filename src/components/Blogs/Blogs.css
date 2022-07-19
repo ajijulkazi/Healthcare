@@ -8,10 +8,12 @@
 }
 
 .blog .box-container .box{
+    background: #fff;
     border: var(--border);
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
     padding: 2rem;
+    
 }
 
 .blog .box-container .box .image{
@@ -52,8 +54,9 @@
 }
 
 .blog .box-container .box .content h3{
-    color: white;
+    color: var(--black);
     font-size: 1.5rem;
+    padding: 1rem 0;
 
 }
 

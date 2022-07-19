@@ -15,6 +15,10 @@ const useFirebase = () =>{
         .then(result => {
             console.log(result.user);
         })
+        .catch((error) =>{
+            alert(error.message)
+        });
+        // .catch((error) => alert(error.message));
         
     }
 
